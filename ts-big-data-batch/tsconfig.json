@@ -8,7 +8,6 @@
     "baseUrl": ".",
     "sourceMap": true,
     "downlevelIteration": true,
-    "noImplicitAny": true,
     "paths": {
       "*": ["node/modules/*"]
     }
