@@ -1,7 +1,7 @@
 import {readFileGenerator} from '../fileApi';
 import {zip} from '../utils';
 
-export function* csvFileReaderGenerator(filename: string, delim: string = '') {
+export function* csvFileReaderGenerator(filename: string, delim: string = ',') {
   let header = [];
 
   for (let line of readFileGenerator(filename)) {
